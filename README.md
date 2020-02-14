@@ -2,7 +2,7 @@ The EEZ DIB PREL6 module features six independently programmable power relays.
 
 ### Feature list
 
-* 2 x 16-pin dual row 3.51 mm connectors
+* 2 x 16-pin dual row 3.81 mm connectors
 * 4 x SPDT relays, max. 8 A / 230 Vac
 * 2 x SPST relays, max. 8 A / 230 Vac
 * On-board +3.3 V LDO
