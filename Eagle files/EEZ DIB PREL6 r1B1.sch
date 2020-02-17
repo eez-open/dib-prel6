@@ -9865,7 +9865,7 @@ This work is licensed under the &lt;i&gt;&lt;a href=https://www.tapr.org/OHL&gt;
 <part name="C10" library="rcl" deviceset="C-EU" device="C0805" value="10n"/>
 <part name="SUPPLY66" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY67" library="supply2" deviceset="GND" device=""/>
-<part name="C8" library="rcl" deviceset="C-EU" device="C0805" value="2u2"/>
+<part name="C8" library="rcl" deviceset="C-EU" device="C1206" value="2u2"/>
 <part name="P+1" library="supply1" deviceset="+5V" device=""/>
 <part name="P+2" library="supply1" deviceset="+5V" device=""/>
 <part name="P+3" library="supply1" deviceset="+5V" device=""/>
@@ -10947,6 +10947,91 @@ This work is licensed under the &lt;i&gt;&lt;a href=https://www.tapr.org/OHL&gt;
 <text x="2.54" y="4.445" size="1.27" layer="94">More info at http://www.envox.hr/eez</text>
 <text x="164.465" y="26.67" size="2.54" layer="94" font="vector">Power relays</text>
 <wire x1="261.62" y1="91.44" x2="2.54" y2="91.44" width="0.1524" layer="97" style="shortdash"/>
+<circle x="234.95" y="148.59" radius="0.635" width="0.1524" layer="101"/>
+<circle x="234.95" y="146.05" radius="0.635" width="0.1524" layer="101"/>
+<circle x="234.95" y="143.51" radius="0.635" width="0.1524" layer="101"/>
+<circle x="234.95" y="140.97" radius="0.635" width="0.1524" layer="101"/>
+<circle x="234.95" y="138.43" radius="0.635" width="0.1524" layer="101"/>
+<circle x="242.57" y="148.59" radius="0.635" width="0.1524" layer="101"/>
+<circle x="242.57" y="146.05" radius="0.635" width="0.1524" layer="101"/>
+<circle x="242.57" y="143.51" radius="0.635" width="0.1524" layer="101"/>
+<circle x="242.57" y="140.97" radius="0.635" width="0.1524" layer="101"/>
+<circle x="242.57" y="138.43" radius="0.635" width="0.1524" layer="101"/>
+<text x="232.41" y="141.605" size="1.4224" layer="101" rot="R180">K2-COMM</text>
+<text x="245.11" y="142.875" size="1.4224" layer="101">K2-NO</text>
+<wire x1="233.68" y1="149.86" x2="243.84" y2="149.86" width="0.1524" layer="101"/>
+<text x="220.98" y="151.765" size="1.778" layer="101">2 x 16-pin front panel connector</text>
+<text x="245.11" y="137.795" size="1.4224" layer="101">K2-NC</text>
+<wire x1="243.84" y1="149.86" x2="243.84" y2="144.78" width="0.1524" layer="101"/>
+<circle x="234.95" y="133.35" radius="0.635" width="0.1524" layer="101"/>
+<circle x="242.57" y="133.35" radius="0.635" width="0.1524" layer="101"/>
+<text x="232.41" y="139.065" size="1.4224" layer="101" rot="R180">K2-NC</text>
+<circle x="234.95" y="135.89" radius="0.635" width="0.1524" layer="101"/>
+<circle x="242.57" y="135.89" radius="0.635" width="0.1524" layer="101"/>
+<text x="245.11" y="147.955" size="1.4224" layer="101">K1-NO</text>
+<text x="232.41" y="149.225" size="1.4224" layer="101" rot="R180">K1-NO</text>
+<circle x="242.57" y="130.81" radius="0.635" width="0.1524" layer="101"/>
+<text x="245.11" y="140.335" size="1.4224" layer="101">K2-COMM</text>
+<circle x="234.95" y="130.81" radius="0.635" width="0.1524" layer="101"/>
+<circle x="234.95" y="127.635" radius="0.635" width="0.1524" layer="101"/>
+<circle x="234.95" y="125.095" radius="0.635" width="0.1524" layer="101"/>
+<circle x="234.95" y="122.555" radius="0.635" width="0.1524" layer="101"/>
+<circle x="234.95" y="120.015" radius="0.635" width="0.1524" layer="101"/>
+<circle x="234.95" y="117.475" radius="0.635" width="0.1524" layer="101"/>
+<circle x="242.57" y="127.635" radius="0.635" width="0.1524" layer="101"/>
+<circle x="242.57" y="125.095" radius="0.635" width="0.1524" layer="101"/>
+<circle x="242.57" y="122.555" radius="0.635" width="0.1524" layer="101"/>
+<circle x="242.57" y="120.015" radius="0.635" width="0.1524" layer="101"/>
+<circle x="242.57" y="117.475" radius="0.635" width="0.1524" layer="101"/>
+<text x="232.41" y="144.145" size="1.4224" layer="101" rot="R180">K2-NO</text>
+<text x="245.11" y="145.415" size="1.4224" layer="101">K1-COMM</text>
+<text x="232.41" y="146.685" size="1.4224" layer="101" rot="R180">K1-COMM</text>
+<wire x1="243.84" y1="144.78" x2="243.84" y2="137.16" width="0.1524" layer="101"/>
+<wire x1="243.84" y1="137.16" x2="243.84" y2="129.54" width="0.1524" layer="101"/>
+<wire x1="233.68" y1="129.54" x2="233.68" y2="137.16" width="0.1524" layer="101"/>
+<wire x1="233.68" y1="137.16" x2="233.68" y2="144.78" width="0.1524" layer="101"/>
+<wire x1="233.68" y1="144.78" x2="233.68" y2="149.86" width="0.1524" layer="101"/>
+<wire x1="233.68" y1="129.54" x2="243.84" y2="129.54" width="0.1524" layer="101"/>
+<circle x="234.95" y="114.935" radius="0.635" width="0.1524" layer="101"/>
+<circle x="242.57" y="114.935" radius="0.635" width="0.1524" layer="101"/>
+<wire x1="233.68" y1="128.905" x2="243.84" y2="128.905" width="0.1524" layer="101"/>
+<wire x1="233.68" y1="108.585" x2="233.68" y2="113.665" width="0.1524" layer="101"/>
+<wire x1="233.68" y1="113.665" x2="233.68" y2="121.285" width="0.1524" layer="101"/>
+<wire x1="233.68" y1="121.285" x2="233.68" y2="128.905" width="0.1524" layer="101"/>
+<wire x1="243.84" y1="108.585" x2="243.84" y2="113.665" width="0.1524" layer="101"/>
+<wire x1="243.84" y1="113.665" x2="243.84" y2="121.285" width="0.1524" layer="101"/>
+<wire x1="243.84" y1="121.285" x2="243.84" y2="128.905" width="0.1524" layer="101"/>
+<wire x1="233.68" y1="108.585" x2="243.84" y2="108.585" width="0.1524" layer="101"/>
+<circle x="234.95" y="112.395" radius="0.635" width="0.1524" layer="101"/>
+<circle x="234.95" y="109.855" radius="0.635" width="0.1524" layer="101"/>
+<circle x="242.57" y="112.395" radius="0.635" width="0.1524" layer="101"/>
+<circle x="242.57" y="109.855" radius="0.635" width="0.1524" layer="101"/>
+<wire x1="233.68" y1="144.78" x2="243.84" y2="144.78" width="0.1524" layer="101" style="shortdash"/>
+<wire x1="233.68" y1="137.16" x2="243.84" y2="137.16" width="0.1524" layer="101" style="shortdash"/>
+<wire x1="233.68" y1="121.285" x2="243.84" y2="121.285" width="0.1524" layer="101" style="shortdash"/>
+<wire x1="233.68" y1="113.665" x2="243.84" y2="113.665" width="0.1524" layer="101" style="shortdash"/>
+<text x="232.41" y="133.985" size="1.4224" layer="101" rot="R180">K3-COMM</text>
+<text x="232.41" y="131.445" size="1.4224" layer="101" rot="R180">K3-NC</text>
+<text x="232.41" y="136.525" size="1.4224" layer="101" rot="R180">K3-NO</text>
+<text x="232.41" y="125.73" size="1.4224" layer="101" rot="R180">K4-COMM</text>
+<text x="232.41" y="123.19" size="1.4224" layer="101" rot="R180">K4-NC</text>
+<text x="232.41" y="128.27" size="1.4224" layer="101" rot="R180">K4-NO</text>
+<text x="232.41" y="118.11" size="1.4224" layer="101" rot="R180">K5-COMM</text>
+<text x="232.41" y="115.57" size="1.4224" layer="101" rot="R180">K5-NC</text>
+<text x="232.41" y="120.65" size="1.4224" layer="101" rot="R180">K5-NO</text>
+<text x="232.41" y="110.49" size="1.4224" layer="101" rot="R180">K6-COMM</text>
+<text x="232.41" y="113.03" size="1.4224" layer="101" rot="R180">K6-NO</text>
+<text x="245.11" y="135.255" size="1.4224" layer="101">K3-NO</text>
+<text x="245.11" y="130.175" size="1.4224" layer="101">K3-NC</text>
+<text x="245.11" y="132.715" size="1.4224" layer="101">K3-COMM</text>
+<text x="245.11" y="127" size="1.4224" layer="101">K4-NO</text>
+<text x="245.11" y="121.92" size="1.4224" layer="101">K4-NC</text>
+<text x="245.11" y="124.46" size="1.4224" layer="101">K4-COMM</text>
+<text x="245.11" y="119.38" size="1.4224" layer="101">K5-NO</text>
+<text x="245.11" y="114.3" size="1.4224" layer="101">K5-NC</text>
+<text x="245.11" y="116.84" size="1.4224" layer="101">K5-COMM</text>
+<text x="245.11" y="111.76" size="1.4224" layer="101">K6-NO</text>
+<text x="245.11" y="109.22" size="1.4224" layer="101">K6-COMM</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0" smashed="yes"/>
@@ -11071,24 +11156,61 @@ This work is licensed under the &lt;i&gt;&lt;a href=https://www.tapr.org/OHL&gt;
 <attribute name="NAME" x="56.515" y="157.48" size="1.778" layer="95" rot="MR180"/>
 <attribute name="VALUE" x="55.88" y="154.94" size="1.778" layer="96" rot="MR180"/>
 </instance>
-<instance part="X3" gate="-1" x="60.96" y="170.18" rot="MR0"/>
-<instance part="X3" gate="-2" x="60.96" y="139.7" rot="MR0"/>
-<instance part="X3" gate="-3" x="134.62" y="170.18" rot="MR0"/>
-<instance part="X3" gate="-4" x="134.62" y="139.7" rot="MR0"/>
-<instance part="X3" gate="-5" x="134.62" y="165.1" rot="MR0"/>
-<instance part="X3" gate="-6" x="198.12" y="170.18" rot="MR0"/>
-<instance part="X3" gate="-7" x="198.12" y="139.7" rot="MR0"/>
-<instance part="X3" gate="-8" x="198.12" y="165.1" rot="MR0"/>
-<instance part="X3" gate="-9" x="60.96" y="167.64" rot="MR0"/>
-<instance part="X3" gate="-10" x="60.96" y="137.16" rot="MR0"/>
-<instance part="X3" gate="-11" x="134.62" y="167.64" rot="MR0"/>
-<instance part="X3" gate="-12" x="134.62" y="137.16" rot="MR0"/>
-<instance part="X3" gate="-13" x="134.62" y="162.56" rot="MR0"/>
-<instance part="X3" gate="-14" x="198.12" y="167.64" rot="MR0"/>
-<instance part="X3" gate="-15" x="198.12" y="137.16" rot="MR0"/>
-<instance part="X3" gate="-16" x="198.12" y="162.56" rot="MR0"/>
-<instance part="K1" gate="-1" x="33.02" y="165.1" rot="R270"/>
-<instance part="K1" gate="-2" x="33.02" y="154.94" rot="R270"/>
+<instance part="X3" gate="-1" x="60.96" y="170.18" smashed="yes" rot="MR0">
+<attribute name="NAME" x="67.31" y="171.069" size="1.778" layer="95" rot="MR180"/>
+<attribute name="VALUE" x="69.85" y="172.847" size="1.778" layer="96" rot="MR0"/>
+</instance>
+<instance part="X3" gate="-2" x="60.96" y="139.7" smashed="yes" rot="MR0">
+<attribute name="NAME" x="67.31" y="140.589" size="1.778" layer="95" rot="MR180"/>
+</instance>
+<instance part="X3" gate="-3" x="134.62" y="170.18" smashed="yes" rot="MR0">
+<attribute name="NAME" x="140.97" y="171.069" size="1.778" layer="95" rot="MR180"/>
+</instance>
+<instance part="X3" gate="-4" x="134.62" y="139.7" smashed="yes" rot="MR0">
+<attribute name="NAME" x="140.97" y="140.589" size="1.778" layer="95" rot="MR180"/>
+</instance>
+<instance part="X3" gate="-5" x="134.62" y="165.1" smashed="yes" rot="MR0">
+<attribute name="NAME" x="140.97" y="165.989" size="1.778" layer="95" rot="MR180"/>
+</instance>
+<instance part="X3" gate="-6" x="198.12" y="170.18" smashed="yes" rot="MR0">
+<attribute name="NAME" x="204.47" y="171.069" size="1.778" layer="95" rot="MR180"/>
+</instance>
+<instance part="X3" gate="-7" x="198.12" y="139.7" smashed="yes" rot="MR0">
+<attribute name="NAME" x="204.47" y="140.589" size="1.778" layer="95" rot="MR180"/>
+</instance>
+<instance part="X3" gate="-8" x="198.12" y="165.1" smashed="yes" rot="MR0">
+<attribute name="NAME" x="204.47" y="165.989" size="1.778" layer="95" rot="MR180"/>
+</instance>
+<instance part="X3" gate="-9" x="60.96" y="167.64" smashed="yes" rot="MR0">
+<attribute name="NAME" x="67.31" y="168.529" size="1.778" layer="95" rot="MR180"/>
+</instance>
+<instance part="X3" gate="-10" x="60.96" y="137.16" smashed="yes" rot="MR0">
+<attribute name="NAME" x="67.31" y="138.049" size="1.778" layer="95" rot="MR180"/>
+</instance>
+<instance part="X3" gate="-11" x="134.62" y="167.64" smashed="yes" rot="MR0">
+<attribute name="NAME" x="140.97" y="168.529" size="1.778" layer="95" rot="MR180"/>
+</instance>
+<instance part="X3" gate="-12" x="134.62" y="137.16" smashed="yes" rot="MR0">
+<attribute name="NAME" x="140.97" y="138.049" size="1.778" layer="95" rot="MR180"/>
+</instance>
+<instance part="X3" gate="-13" x="134.62" y="162.56" smashed="yes" rot="MR0">
+<attribute name="NAME" x="140.97" y="163.449" size="1.778" layer="95" rot="MR180"/>
+</instance>
+<instance part="X3" gate="-14" x="198.12" y="167.64" smashed="yes" rot="MR0">
+<attribute name="NAME" x="204.47" y="168.529" size="1.778" layer="95" rot="MR180"/>
+</instance>
+<instance part="X3" gate="-15" x="198.12" y="137.16" smashed="yes" rot="MR0">
+<attribute name="NAME" x="204.47" y="138.049" size="1.778" layer="95" rot="MR180"/>
+</instance>
+<instance part="X3" gate="-16" x="198.12" y="162.56" smashed="yes" rot="MR0">
+<attribute name="NAME" x="204.47" y="163.449" size="1.778" layer="95" rot="MR180"/>
+</instance>
+<instance part="K1" gate="-1" x="33.02" y="165.1" smashed="yes" rot="R270">
+<attribute name="PART" x="29.845" y="165.735" size="1.778" layer="95"/>
+</instance>
+<instance part="K1" gate="-2" x="33.02" y="154.94" smashed="yes" rot="R270">
+<attribute name="PART" x="29.845" y="155.575" size="1.778" layer="95"/>
+</instance>
 <instance part="VAR2" gate="G$1" x="119.38" y="154.94" smashed="yes" rot="MR90">
 <attribute name="NAME" x="122.555" y="157.48" size="1.778" layer="95" rot="MR180"/>
 <attribute name="VALUE" x="121.92" y="154.94" size="1.778" layer="96" rot="MR180"/>
@@ -11097,8 +11219,12 @@ This work is licensed under the &lt;i&gt;&lt;a href=https://www.tapr.org/OHL&gt;
 <attribute name="NAME" x="127.635" y="146.05" size="1.778" layer="95"/>
 <attribute name="VALUE" x="127.635" y="143.51" size="1.778" layer="96"/>
 </instance>
-<instance part="K2" gate="-1" x="99.06" y="165.1" rot="R270"/>
-<instance part="K2" gate="-2" x="99.06" y="154.94" rot="R270"/>
+<instance part="K2" gate="-1" x="99.06" y="165.1" smashed="yes" rot="R270">
+<attribute name="PART" x="95.25" y="165.735" size="1.778" layer="95"/>
+</instance>
+<instance part="K2" gate="-2" x="99.06" y="154.94" smashed="yes" rot="R270">
+<attribute name="PART" x="95.25" y="155.575" size="1.778" layer="95"/>
+</instance>
 <instance part="VAR3" gate="G$1" x="185.42" y="154.94" smashed="yes" rot="MR90">
 <attribute name="NAME" x="188.595" y="157.48" size="1.778" layer="95" rot="MR180"/>
 <attribute name="VALUE" x="187.96" y="154.94" size="1.778" layer="96" rot="MR180"/>
@@ -11107,8 +11233,12 @@ This work is licensed under the &lt;i&gt;&lt;a href=https://www.tapr.org/OHL&gt;
 <attribute name="NAME" x="193.675" y="146.05" size="1.778" layer="95"/>
 <attribute name="VALUE" x="193.675" y="143.51" size="1.778" layer="96"/>
 </instance>
-<instance part="K3" gate="-1" x="165.1" y="165.1" rot="R270"/>
-<instance part="K3" gate="-2" x="165.1" y="154.94" rot="R270"/>
+<instance part="K3" gate="-1" x="165.1" y="165.1" smashed="yes" rot="R270">
+<attribute name="PART" x="161.29" y="165.735" size="1.778" layer="95"/>
+</instance>
+<instance part="K3" gate="-2" x="165.1" y="154.94" smashed="yes" rot="R270">
+<attribute name="PART" x="161.29" y="155.575" size="1.778" layer="95"/>
+</instance>
 <instance part="VAR6" gate="G$1" x="53.34" y="114.3" smashed="yes" rot="MR90">
 <attribute name="NAME" x="56.515" y="116.84" size="1.778" layer="95" rot="MR180"/>
 <attribute name="VALUE" x="55.88" y="114.3" size="1.778" layer="96" rot="MR180"/>
@@ -11117,8 +11247,12 @@ This work is licensed under the &lt;i&gt;&lt;a href=https://www.tapr.org/OHL&gt;
 <attribute name="NAME" x="61.595" y="105.41" size="1.778" layer="95"/>
 <attribute name="VALUE" x="61.595" y="102.87" size="1.778" layer="96"/>
 </instance>
-<instance part="K4" gate="-1" x="33.02" y="124.46" rot="R270"/>
-<instance part="K4" gate="-2" x="33.02" y="114.3" rot="R270"/>
+<instance part="K4" gate="-1" x="33.02" y="124.46" smashed="yes" rot="R270">
+<attribute name="PART" x="29.21" y="125.095" size="1.778" layer="95"/>
+</instance>
+<instance part="K4" gate="-2" x="33.02" y="114.3" smashed="yes" rot="R270">
+<attribute name="PART" x="29.845" y="114.935" size="1.778" layer="95"/>
+</instance>
 <instance part="VAR7" gate="G$1" x="119.38" y="114.3" smashed="yes" rot="MR90">
 <attribute name="NAME" x="122.555" y="116.84" size="1.778" layer="95" rot="MR180"/>
 <attribute name="VALUE" x="121.92" y="114.3" size="1.778" layer="96" rot="MR180"/>
@@ -11127,35 +11261,91 @@ This work is licensed under the &lt;i&gt;&lt;a href=https://www.tapr.org/OHL&gt;
 <attribute name="NAME" x="127.635" y="105.41" size="1.778" layer="95"/>
 <attribute name="VALUE" x="127.635" y="102.87" size="1.778" layer="96"/>
 </instance>
-<instance part="K5" gate="-1" x="99.06" y="124.46" rot="R270"/>
-<instance part="K5" gate="-2" x="99.06" y="114.3" rot="R270"/>
+<instance part="K5" gate="-1" x="99.06" y="124.46" smashed="yes" rot="R270">
+<attribute name="PART" x="95.25" y="125.095" size="1.778" layer="95"/>
+</instance>
+<instance part="K5" gate="-2" x="99.06" y="114.3" smashed="yes" rot="R270">
+<attribute name="PART" x="95.25" y="114.935" size="1.778" layer="95"/>
+</instance>
 <instance part="VAR8" gate="G$1" x="185.42" y="114.3" smashed="yes" rot="MR90">
 <attribute name="NAME" x="188.595" y="116.84" size="1.778" layer="95" rot="MR180"/>
 <attribute name="VALUE" x="187.96" y="114.3" size="1.778" layer="96" rot="MR180"/>
 </instance>
-<instance part="K6" gate="-1" x="165.1" y="124.46" rot="R270"/>
-<instance part="K6" gate="-2" x="165.1" y="114.3" rot="R270"/>
-<instance part="K2" gate="K" x="68.58" y="71.12"/>
-<instance part="K3" gate="K" x="101.6" y="71.12"/>
-<instance part="K4" gate="K" x="134.62" y="71.12"/>
-<instance part="K5" gate="K" x="167.64" y="71.12"/>
-<instance part="K6" gate="K" x="200.66" y="71.12"/>
-<instance part="X4" gate="-1" x="68.58" y="129.54" rot="MR0"/>
-<instance part="X4" gate="-2" x="68.58" y="99.06" rot="MR0"/>
-<instance part="X4" gate="-3" x="68.58" y="124.46" rot="MR0"/>
-<instance part="X4" gate="-4" x="134.62" y="129.54" rot="MR0"/>
-<instance part="X4" gate="-5" x="134.62" y="99.06" rot="MR0"/>
-<instance part="X4" gate="-6" x="134.62" y="124.46" rot="MR0"/>
-<instance part="X4" gate="-7" x="198.12" y="129.54" rot="MR0"/>
-<instance part="X4" gate="-8" x="198.12" y="99.06" rot="MR0"/>
-<instance part="X4" gate="-9" x="68.58" y="127" rot="MR0"/>
-<instance part="X4" gate="-10" x="68.58" y="96.52" rot="MR0"/>
-<instance part="X4" gate="-11" x="68.58" y="121.92" rot="MR0"/>
-<instance part="X4" gate="-12" x="134.62" y="127" rot="MR0"/>
-<instance part="X4" gate="-13" x="134.62" y="96.52" rot="MR0"/>
-<instance part="X4" gate="-14" x="134.62" y="121.92" rot="MR0"/>
-<instance part="X4" gate="-15" x="198.12" y="127" rot="MR0"/>
-<instance part="X4" gate="-16" x="198.12" y="96.52" rot="MR0"/>
+<instance part="K6" gate="-1" x="165.1" y="124.46" smashed="yes" rot="R270">
+<attribute name="PART" x="161.29" y="125.095" size="1.778" layer="95"/>
+</instance>
+<instance part="K6" gate="-2" x="165.1" y="114.3" smashed="yes" rot="R270">
+<attribute name="PART" x="161.29" y="114.935" size="1.778" layer="95"/>
+</instance>
+<instance part="K2" gate="K" x="68.58" y="71.12" smashed="yes">
+<attribute name="VALUE" x="69.85" y="74.041" size="1.778" layer="96"/>
+<attribute name="PART" x="69.85" y="76.2" size="1.778" layer="95"/>
+</instance>
+<instance part="K3" gate="K" x="101.6" y="71.12" smashed="yes">
+<attribute name="VALUE" x="102.87" y="74.041" size="1.778" layer="96"/>
+<attribute name="PART" x="102.87" y="76.2" size="1.778" layer="95"/>
+</instance>
+<instance part="K4" gate="K" x="134.62" y="71.12" smashed="yes">
+<attribute name="VALUE" x="135.89" y="74.041" size="1.778" layer="96"/>
+<attribute name="PART" x="135.89" y="76.2" size="1.778" layer="95"/>
+</instance>
+<instance part="K5" gate="K" x="167.64" y="71.12" smashed="yes">
+<attribute name="VALUE" x="168.91" y="74.041" size="1.778" layer="96"/>
+<attribute name="PART" x="168.91" y="76.2" size="1.778" layer="95"/>
+</instance>
+<instance part="K6" gate="K" x="200.66" y="71.12" smashed="yes">
+<attribute name="VALUE" x="201.93" y="74.041" size="1.778" layer="96"/>
+<attribute name="PART" x="201.93" y="76.2" size="1.778" layer="95"/>
+</instance>
+<instance part="X4" gate="-1" x="68.58" y="129.54" smashed="yes" rot="MR0">
+<attribute name="NAME" x="74.93" y="130.429" size="1.778" layer="95" rot="MR180"/>
+<attribute name="VALUE" x="77.47" y="132.207" size="1.778" layer="96" rot="MR0"/>
+</instance>
+<instance part="X4" gate="-2" x="68.58" y="99.06" smashed="yes" rot="MR0">
+<attribute name="NAME" x="74.93" y="99.949" size="1.778" layer="95" rot="MR180"/>
+</instance>
+<instance part="X4" gate="-3" x="68.58" y="124.46" smashed="yes" rot="MR0">
+<attribute name="NAME" x="74.93" y="125.349" size="1.778" layer="95" rot="MR180"/>
+</instance>
+<instance part="X4" gate="-4" x="134.62" y="129.54" smashed="yes" rot="MR0">
+<attribute name="NAME" x="140.97" y="130.429" size="1.778" layer="95" rot="MR180"/>
+</instance>
+<instance part="X4" gate="-5" x="134.62" y="99.06" smashed="yes" rot="MR0">
+<attribute name="NAME" x="140.97" y="99.949" size="1.778" layer="95" rot="MR180"/>
+</instance>
+<instance part="X4" gate="-6" x="134.62" y="124.46" smashed="yes" rot="MR0">
+<attribute name="NAME" x="140.97" y="125.349" size="1.778" layer="95" rot="MR180"/>
+</instance>
+<instance part="X4" gate="-7" x="198.12" y="129.54" smashed="yes" rot="MR0">
+<attribute name="NAME" x="204.47" y="130.429" size="1.778" layer="95" rot="MR180"/>
+</instance>
+<instance part="X4" gate="-8" x="198.12" y="99.06" smashed="yes" rot="MR0">
+<attribute name="NAME" x="204.47" y="99.949" size="1.778" layer="95" rot="MR180"/>
+</instance>
+<instance part="X4" gate="-9" x="68.58" y="127" smashed="yes" rot="MR0">
+<attribute name="NAME" x="74.93" y="127.889" size="1.778" layer="95" rot="MR180"/>
+</instance>
+<instance part="X4" gate="-10" x="68.58" y="96.52" smashed="yes" rot="MR0">
+<attribute name="NAME" x="74.93" y="97.409" size="1.778" layer="95" rot="MR180"/>
+</instance>
+<instance part="X4" gate="-11" x="68.58" y="121.92" smashed="yes" rot="MR0">
+<attribute name="NAME" x="74.93" y="122.809" size="1.778" layer="95" rot="MR180"/>
+</instance>
+<instance part="X4" gate="-12" x="134.62" y="127" smashed="yes" rot="MR0">
+<attribute name="NAME" x="140.97" y="127.889" size="1.778" layer="95" rot="MR180"/>
+</instance>
+<instance part="X4" gate="-13" x="134.62" y="96.52" smashed="yes" rot="MR0">
+<attribute name="NAME" x="140.97" y="97.409" size="1.778" layer="95" rot="MR180"/>
+</instance>
+<instance part="X4" gate="-14" x="134.62" y="121.92" smashed="yes" rot="MR0">
+<attribute name="NAME" x="140.97" y="122.809" size="1.778" layer="95" rot="MR180"/>
+</instance>
+<instance part="X4" gate="-15" x="198.12" y="127" smashed="yes" rot="MR0">
+<attribute name="NAME" x="204.47" y="127.889" size="1.778" layer="95" rot="MR180"/>
+</instance>
+<instance part="X4" gate="-16" x="198.12" y="96.52" smashed="yes" rot="MR0">
+<attribute name="NAME" x="204.47" y="97.409" size="1.778" layer="95" rot="MR180"/>
+</instance>
 <instance part="R2" gate="G$1" x="20.32" y="50.8" smashed="yes" rot="MR180">
 <attribute name="NAME" x="18.415" y="53.7464" size="1.778" layer="95" rot="MR180"/>
 <attribute name="VALUE" x="17.78" y="49.657" size="1.778" layer="96" rot="MR180"/>
