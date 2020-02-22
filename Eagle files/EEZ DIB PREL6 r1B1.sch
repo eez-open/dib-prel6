@@ -10482,20 +10482,6 @@ This work is licensed under the &lt;i&gt;&lt;a href=https://www.tapr.org/OHL&gt;
 <pinref part="SUPPLY51" gate="GND" pin="GND"/>
 </segment>
 </net>
-<net name="OUT22" class="0">
-<segment>
-<wire x1="170.18" y1="114.3" x2="182.88" y2="114.3" width="0.1524" layer="91"/>
-<label x="170.18" y="114.935" size="1.27" layer="102"/>
-<pinref part="IC1" gate="G$1" pin="PC13"/>
-</segment>
-</net>
-<net name="OUT23" class="0">
-<segment>
-<pinref part="IC1" gate="G$1" pin="PC14-OSC32_IN"/>
-<wire x1="182.88" y1="111.76" x2="170.18" y2="111.76" width="0.1524" layer="91"/>
-<label x="170.18" y="112.395" size="1.27" layer="102"/>
-</segment>
-</net>
 <net name="DIB_A0" class="0">
 <segment>
 <wire x1="48.26" y1="45.72" x2="55.88" y2="45.72" width="0.1524" layer="91"/>
@@ -10796,9 +10782,9 @@ This work is licensed under the &lt;i&gt;&lt;a href=https://www.tapr.org/OHL&gt;
 </net>
 <net name="UART_RX" class="0">
 <segment>
-<pinref part="IC1" gate="G$1" pin="PA15"/>
-<wire x1="223.52" y1="129.54" x2="223.52" y2="142.24" width="0.1524" layer="91"/>
-<label x="222.885" y="132.08" size="1.27" layer="102" rot="R90"/>
+<label x="243.84" y="104.775" size="1.27" layer="102"/>
+<pinref part="IC1" gate="G$1" pin="PA10"/>
+<wire x1="241.3" y1="104.14" x2="251.46" y2="104.14" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="X2" gate="-27" pin="1"/>
@@ -12052,10 +12038,6 @@ This work is licensed under the &lt;i&gt;&lt;a href=https://www.tapr.org/OHL&gt;
 <approved hash="101,1,68.58,152.4,X2-6,1,,,,"/>
 <approved hash="101,1,68.58,144.78,X2-12,1,,,,"/>
 <approved hash="104,1,48.26,50.8,IC3,VCC,+3V3,,,"/>
-<approved hash="104,2,172.72,63.5,IC5P,V+,+3V3,,,"/>
-<approved hash="104,2,172.72,48.26,IC5P,V-,GND,,,"/>
-<approved hash="104,2,190.5,63.5,IC6P,V+,+12V,,,"/>
-<approved hash="104,2,190.5,48.26,IC6P,V-,GND,,,"/>
 <approved hash="104,1,124.46,119.38,IC2B,V+,+3V3,,,"/>
 <approved hash="104,1,124.46,104.14,IC2B,V-,GND,,,"/>
 <approved hash="113,1,131.976,90.066,FRAME7,,,,,"/>
