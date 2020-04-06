@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.025" unitdist="inch" unit="inch" style="lines" multiple="4" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -10086,7 +10086,7 @@ Source: Samtec SSW.pdf</description>
 <circle x="118.11" y="158.75" radius="0.635" width="0.1524" layer="101"/>
 <circle x="118.11" y="156.21" radius="0.635" width="0.1524" layer="101"/>
 <circle x="118.11" y="153.67" radius="0.635" width="0.1524" layer="101"/>
-<text x="120.65" y="132.715" size="1.4224" layer="101">26 Gnd</text>
+<text x="120.65" y="132.715" size="1.4224" layer="101">26 BOOT0</text>
 <text x="113.03" y="156.845" size="1.4224" layer="101" rot="R180">Gnd 7</text>
 <text x="120.65" y="137.795" size="1.4224" layer="101">22 +12V</text>
 <text x="120.65" y="145.415" size="1.4224" layer="101">16 Gnd</text>
@@ -10252,7 +10252,7 @@ Source: Samtec SSW.pdf</description>
 <attribute name="VALUE" x="34.925" y="117.475" size="1.778" layer="96" rot="MR180"/>
 </instance>
 <instance part="SUPPLY28" gate="GND" x="73.66" y="116.84" smashed="yes">
-<attribute name="VALUE" x="75.565" y="117.475" size="1.778" layer="96" rot="MR180"/>
+<attribute name="VALUE" x="71.755" y="117.475" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="C7" gate="G$1" x="58.42" y="50.8" smashed="yes" rot="R270">
 <attribute name="NAME" x="58.039" y="51.181" size="1.778" layer="95"/>
@@ -10357,12 +10357,12 @@ Source: Samtec SSW.pdf</description>
 <attribute name="NAME" x="81.026" y="37.846" size="1.778" layer="95" rot="MR0"/>
 <attribute name="VALUE" x="81.026" y="35.814" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="RN2" gate="-1" x="101.6" y="114.3" smashed="yes" rot="R90">
-<attribute name="VALUE" x="102.87" y="112.522" size="1.27" layer="96"/>
-<attribute name="NAME" x="102.87" y="114.427" size="1.27" layer="95"/>
+<instance part="RN2" gate="-1" x="96.52" y="114.3" smashed="yes" rot="R90">
+<attribute name="VALUE" x="97.79" y="112.522" size="1.27" layer="96"/>
+<attribute name="NAME" x="97.79" y="114.427" size="1.27" layer="95"/>
 </instance>
-<instance part="+3V5" gate="G$1" x="101.6" y="124.46" smashed="yes">
-<attribute name="VALUE" x="102.87" y="123.825" size="1.778" layer="96"/>
+<instance part="+3V5" gate="G$1" x="96.52" y="124.46" smashed="yes">
+<attribute name="VALUE" x="97.79" y="123.825" size="1.778" layer="96"/>
 </instance>
 <instance part="RN2" gate="-2" x="40.64" y="22.86" smashed="yes" rot="R180">
 <attribute name="NAME" x="43.815" y="22.987" size="1.27" layer="95"/>
@@ -10386,9 +10386,9 @@ Source: Samtec SSW.pdf</description>
 <instance part="+3V7" gate="G$1" x="124.46" y="124.46" smashed="yes">
 <attribute name="VALUE" x="125.73" y="123.825" size="1.778" layer="96"/>
 </instance>
-<instance part="IC2" gate="A" x="93.98" y="106.68" smashed="yes" rot="MR0">
-<attribute name="NAME" x="96.52" y="109.855" size="1.778" layer="95" rot="MR0"/>
-<attribute name="VALUE" x="94.615" y="101.6" size="1.27" layer="96"/>
+<instance part="IC2" gate="A" x="88.9" y="106.68" smashed="yes" rot="R180">
+<attribute name="NAME" x="89.535" y="109.855" size="1.778" layer="95"/>
+<attribute name="VALUE" x="83.185" y="103.505" size="1.27" layer="96" rot="MR180"/>
 </instance>
 <instance part="IC2" gate="B" x="124.46" y="111.76" smashed="yes" rot="MR0">
 <attribute name="NAME" x="125.73" y="111.125" size="1.778" layer="95" rot="MR0"/>
@@ -10453,13 +10453,9 @@ Source: Samtec SSW.pdf</description>
 <wire x1="68.58" y1="139.7" x2="73.66" y2="139.7" width="0.1524" layer="91"/>
 <wire x1="73.66" y1="139.7" x2="73.66" y2="134.62" width="0.1524" layer="91"/>
 <pinref part="X2" gate="-20" pin="1"/>
-<wire x1="73.66" y1="134.62" x2="73.66" y2="127" width="0.1524" layer="91"/>
-<wire x1="73.66" y1="127" x2="73.66" y2="119.38" width="0.1524" layer="91"/>
+<wire x1="73.66" y1="134.62" x2="73.66" y2="119.38" width="0.1524" layer="91"/>
 <wire x1="68.58" y1="134.62" x2="73.66" y2="134.62" width="0.1524" layer="91"/>
 <junction x="73.66" y="134.62"/>
-<pinref part="X2" gate="-26" pin="1"/>
-<wire x1="68.58" y1="127" x2="73.66" y2="127" width="0.1524" layer="91"/>
-<junction x="73.66" y="127"/>
 <pinref part="SUPPLY28" gate="GND" pin="GND"/>
 </segment>
 <segment>
@@ -10694,7 +10690,7 @@ Source: Samtec SSW.pdf</description>
 </segment>
 <segment>
 <pinref part="RN2" gate="-1" pin="2"/>
-<wire x1="101.6" y1="119.38" x2="101.6" y2="121.92" width="0.1524" layer="91"/>
+<wire x1="96.52" y1="119.38" x2="96.52" y2="121.92" width="0.1524" layer="91"/>
 <pinref part="+3V5" gate="G$1" pin="+3V3"/>
 </segment>
 <segment>
@@ -10772,10 +10768,13 @@ Source: Samtec SSW.pdf</description>
 <wire x1="208.28" y1="144.78" x2="231.14" y2="144.78" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<wire x1="93.98" y1="96.52" x2="106.68" y2="96.52" width="0.1524" layer="91"/>
-<label x="106.68" y="97.155" size="1.27" layer="102" rot="MR0"/>
+<wire x1="88.9" y1="127" x2="68.58" y2="127" width="0.1524" layer="91"/>
+<label x="96.52" y="127.635" size="1.27" layer="102" rot="MR0"/>
 <pinref part="IC2" gate="A" pin="EN"/>
-<wire x1="93.98" y1="96.52" x2="93.98" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="88.9" y1="127" x2="88.9" y2="111.76" width="0.1524" layer="91"/>
+<wire x1="88.9" y1="127" x2="96.52" y2="127" width="0.1524" layer="91"/>
+<junction x="88.9" y="127"/>
+<pinref part="X2" gate="-26" pin="1"/>
 </segment>
 </net>
 <net name="DIB_CSA" class="0">
@@ -10833,12 +10832,12 @@ Source: Samtec SSW.pdf</description>
 <label x="243.84" y="102.235" size="1.27" layer="102"/>
 </segment>
 <segment>
-<wire x1="99.06" y1="106.68" x2="101.6" y2="106.68" width="0.1524" layer="91"/>
-<wire x1="101.6" y1="106.68" x2="114.3" y2="106.68" width="0.1524" layer="91"/>
-<wire x1="101.6" y1="106.68" x2="101.6" y2="109.22" width="0.1524" layer="91"/>
-<junction x="101.6" y="106.68"/>
+<wire x1="93.98" y1="106.68" x2="96.52" y2="106.68" width="0.1524" layer="91"/>
+<wire x1="96.52" y1="106.68" x2="109.22" y2="106.68" width="0.1524" layer="91"/>
+<wire x1="96.52" y1="106.68" x2="96.52" y2="109.22" width="0.1524" layer="91"/>
+<junction x="96.52" y="106.68"/>
 <pinref part="RN2" gate="-1" pin="1"/>
-<label x="114.3" y="107.315" size="1.27" layer="102" rot="MR0"/>
+<label x="109.22" y="107.315" size="1.27" layer="102" rot="MR0"/>
 <pinref part="IC2" gate="A" pin="I"/>
 </segment>
 </net>
@@ -10933,9 +10932,9 @@ Source: Samtec SSW.pdf</description>
 <net name="N$72" class="0">
 <segment>
 <pinref part="X2" gate="-28" pin="1"/>
-<wire x1="68.58" y1="124.46" x2="81.28" y2="124.46" width="0.1524" layer="91"/>
-<wire x1="81.28" y1="124.46" x2="81.28" y2="106.68" width="0.1524" layer="91"/>
-<wire x1="81.28" y1="106.68" x2="86.36" y2="106.68" width="0.1524" layer="91"/>
+<wire x1="68.58" y1="124.46" x2="76.2" y2="124.46" width="0.1524" layer="91"/>
+<wire x1="76.2" y1="124.46" x2="76.2" y2="106.68" width="0.1524" layer="91"/>
+<wire x1="76.2" y1="106.68" x2="81.28" y2="106.68" width="0.1524" layer="91"/>
 <pinref part="IC2" gate="A" pin="O"/>
 </segment>
 </net>
