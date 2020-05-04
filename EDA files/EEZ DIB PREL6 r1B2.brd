@@ -202,8 +202,8 @@
 <wire x1="4.064" y1="25.019" x2="4.064" y2="25.781" width="0.1" layer="20"/>
 <dimension x1="-10" y1="81" x2="-11" y2="17" x3="-12" y3="49" textsize="2" layer="47" dtype="vertical"/>
 <text x="23.1675" y="3.2345" size="1.27" layer="21" font="vector" ratio="10" rot="SR0">EEZ DIB PREL6
-(04/2020 r1B2)</text>
-<text x="141.1565" y="48.9245" size="1.27" layer="22" font="vector" ratio="10" rot="SMR90">EEZ DIB PREL6 (04/2020 r1B2)
+(05/2020 r1B2)</text>
+<text x="141.1565" y="48.9245" size="1.27" layer="22" font="vector" ratio="10" rot="SMR90">EEZ DIB PREL6 (05/2020 r1B2)
 Project source code: github.com/eez-open</text>
 <rectangle x1="17.145" y1="7.62" x2="39.243" y2="13.2715" layer="21"/>
 <rectangle x1="18.9553" y1="4.3012" x2="19.3325" y2="4.305" layer="21"/>
@@ -2536,6 +2536,11 @@ Source: RS Component / BUORNS</description>
 <wire x1="0.7112" y1="1.0668" x2="0.3048" y2="1.0668" width="0.1524" layer="21"/>
 <wire x1="-0.3048" y1="1.0668" x2="-0.7112" y2="1.0668" width="0.1524" layer="21"/>
 </package>
+<package name="PCB_SHIELD_TAB">
+<circle x="0" y="0" radius="1.2" width="0.127" layer="21"/>
+<pad name="1" x="0" y="0" drill="1.1" shape="octagon"/>
+<text x="-2.8575" y="1.5875" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+</package>
 </packages>
 </library>
 <library name="EEZ_connectors">
@@ -3616,6 +3621,9 @@ design rules under a new name.</description>
 <attribute name="NAME" x="134.3025" y="14.5415" size="1.27" layer="25" ratio="10"/>
 <attribute name="VALUE" x="133.2865" y="8.8265" size="1.016" layer="27" ratio="10" rot="R90"/>
 </element>
+<element name="GND" library="EEZ_Lib1" package="PCB_SHIELD_TAB" value="" x="102.997" y="22.86" smashed="yes">
+<attribute name="NAME" x="104.7115" y="22.2885" size="1.27" layer="25" ratio="10"/>
+</element>
 </elements>
 <signals>
 <signal name="HOLE_DL">
@@ -4693,6 +4701,7 @@ design rules under a new name.</description>
 <wire x1="120.0785" y1="15.367" x2="120.3325" y2="15.113" width="0.254" layer="1"/>
 <wire x1="134.366" y1="25.8445" x2="135.0645" y2="25.8445" width="0.3048" layer="1"/>
 <wire x1="135.0645" y1="25.8445" x2="135.0645" y2="27.1145" width="0.3048" layer="1"/>
+<contactref element="GND" pad="1"/>
 </signal>
 <signal name="DIB_A0">
 <contactref element="IC3" pad="1"/>
@@ -5036,7 +5045,6 @@ design rules under a new name.</description>
 <wire x1="128.7399" y1="17.8816" x2="132.715" y2="13.9065" width="0.2032" layer="1"/>
 </signal>
 <signal name="UART_RX">
-<contactref element="X2" pad="27"/>
 <via x="124.587" y="16.891" extent="1-16" drill="0.4" shape="octagon"/>
 <wire x1="101.727" y1="13.9065" x2="100.6475" y2="12.827" width="0.2032" layer="16"/>
 <wire x1="101.727" y1="13.9065" x2="103.8225" y2="13.9065" width="0.2032" layer="16"/>
@@ -5048,9 +5056,11 @@ design rules under a new name.</description>
 <wire x1="127.3429" y1="16.383" x2="125.603" y2="16.383" width="0.2032" layer="1"/>
 <wire x1="124.587" y1="16.891" x2="125.095" y2="16.891" width="0.2032" layer="1"/>
 <wire x1="125.095" y1="16.891" x2="125.603" y2="16.383" width="0.2032" layer="1"/>
-<wire x1="87.54" y1="9.96" x2="87.811" y2="9.96" width="0.2032" layer="16"/>
-<wire x1="87.811" y1="9.96" x2="90.678" y2="12.827" width="0.2032" layer="16"/>
-<wire x1="90.678" y1="12.827" x2="100.6475" y2="12.827" width="0.2032" layer="16"/>
+<contactref element="X2" pad="28"/>
+<wire x1="100.6475" y1="12.827" x2="90.6145" y2="12.827" width="0.2032" layer="16"/>
+<wire x1="90.6145" y1="12.827" x2="89.916" y2="12.1285" width="0.2032" layer="16"/>
+<wire x1="89.916" y1="12.1285" x2="87.9115" y2="12.1285" width="0.2032" layer="16"/>
+<wire x1="87.9115" y1="12.1285" x2="87.54" y2="12.5" width="0.2032" layer="16"/>
 </signal>
 <signal name="SWCLK">
 <contactref element="IC1" pad="37"/>
@@ -5146,8 +5156,7 @@ design rules under a new name.</description>
 <wire x1="128.974" y1="9.437" x2="128.974" y2="6.419" width="0.2032" layer="1"/>
 <wire x1="128.974" y1="6.419" x2="128.9685" y2="6.4135" width="0.2032" layer="1"/>
 </signal>
-<signal name="N$72">
-<contactref element="X2" pad="28"/>
+<signal name="DIB_UART_RX">
 <contactref element="IC2" pad="4"/>
 <via x="103.759" y="17.5895" extent="1-16" drill="0.4" shape="octagon"/>
 <wire x1="103.759" y1="15.0495" x2="103.0605" y2="14.351" width="0.2032" layer="16"/>
@@ -5156,9 +5165,12 @@ design rules under a new name.</description>
 <wire x1="103.759" y1="17.5895" x2="103.759" y2="15.0495" width="0.2032" layer="16"/>
 <wire x1="102.5779" y1="17.6276" x2="103.7209" y2="17.6276" width="0.2032" layer="1"/>
 <wire x1="103.7209" y1="17.6276" x2="103.759" y2="17.5895" width="0.2032" layer="1"/>
-<wire x1="87.54" y1="12.5" x2="87.557" y2="12.5" width="0.2032" layer="16"/>
-<wire x1="87.557" y1="12.5" x2="88.3285" y2="13.2715" width="0.2032" layer="16"/>
-<wire x1="88.3285" y1="13.2715" x2="100.457" y2="13.2715" width="0.2032" layer="16"/>
+<contactref element="X2" pad="27"/>
+<wire x1="100.457" y1="13.2715" x2="89.916" y2="13.2715" width="0.2032" layer="16"/>
+<via x="89.5985" y="12.954" extent="1-16" drill="0.4" shape="octagon"/>
+<wire x1="89.5985" y1="12.954" x2="89.5985" y2="12.0185" width="0.2032" layer="1"/>
+<wire x1="89.5985" y1="12.0185" x2="87.54" y2="9.96" width="0.2032" layer="1"/>
+<wire x1="89.916" y1="13.2715" x2="89.5985" y2="12.954" width="0.2032" layer="16"/>
 </signal>
 <signal name="N$1">
 <contactref element="ZD1" pad="A"/>
@@ -7819,18 +7831,18 @@ design rules under a new name.</description>
 <approved hash="4,1,71df438d41bd5810"/>
 <approved hash="4,1,de39d7f310ff28b5"/>
 <approved hash="4,1,20b87a5f3ef15994"/>
-<approved hash="4,1,91c424163ab9ae8c"/>
 <approved hash="4,1,2ce9f2749604511f"/>
 <approved hash="4,1,1d36bb9a5e35e11f"/>
 <approved hash="4,1,23286ad8167542fb"/>
+<approved hash="4,1,91c424163ab9ae8c"/>
 <approved hash="4,1,772076e26fbdb8ec"/>
 <approved hash="4,1,6606435ba57b6454"/>
 <approved hash="4,1,3987f9c35174593c"/>
-<approved hash="19,1,f39e2c342709e099"/>
 <approved hash="19,1,008cd13b7efad5b2"/>
+<approved hash="19,1,f39e2c342709e099"/>
 <approved hash="5,1,16b7ea7fe8ca1400"/>
-<approved hash="19,1,4750272cfd1e73d7"/>
 <approved hash="19,1,cc6312288469c363"/>
+<approved hash="19,1,4750272cfd1e73d7"/>
 <approved hash="19,1,4022f5960d1cc1f7"/>
 <approved hash="19,1,8a12b82960105343"/>
 <approved hash="19,1,5e228f3afafb511c"/>
@@ -7849,15 +7861,15 @@ design rules under a new name.</description>
 <approved hash="19,1,b885081587c73a89"/>
 <approved hash="19,1,778641bdbff4ef77"/>
 <approved hash="19,1,ad36a2b3c9293abf"/>
-<approved hash="19,1,3150352b309a6c14"/>
 <approved hash="19,1,ba060ece89c953e0"/>
+<approved hash="19,1,3150352b309a6c14"/>
 <approved hash="19,1,23c9ad9dc92cab4a"/>
 <approved hash="5,1,47ecedfdcf9ad975"/>
 <approved hash="5,1,ec44198f18405731"/>
 <approved hash="19,1,5914f803a27656c1"/>
-<approved hash="19,1,ea7432b42301f1f3"/>
-<approved hash="19,1,6bbc95c81ef0e235"/>
 <approved hash="19,1,fff72d3de6fc4ec9"/>
+<approved hash="19,1,6bbc95c81ef0e235"/>
+<approved hash="19,1,ea7432b42301f1f3"/>
 <approved hash="5,1,f6b4e16de0d9f4dc"/>
 <approved hash="5,1,0ea81a6018d40c1e"/>
 <approved hash="19,1,114e0b320206758a"/>
