@@ -12,6 +12,6 @@ The EEZ DIB PREL6 module features six independently programmable power relays.
 * I2C EEPROM for storing board specific parameters
 * Dimensions: 146 x 95 mm, 2-layer PCB
 
-### PCB r1B1 prototype
+### r1B1 prototype
 
-![prototype](Images/EEZ_DIB_PREL6_PCB_top.png)
+![prototype](Images/PREL6_prototype_r1B1.JPG)
