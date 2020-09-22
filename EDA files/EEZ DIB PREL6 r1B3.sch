@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.025" unitdist="inch" unit="inch" style="lines" multiple="4" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -10173,12 +10173,12 @@ Source: Samtec SSW.pdf</description>
 <part name="IC1" library="EEZ_DIB" deviceset="STM32F030" device="C6T6"/>
 <part name="SUPPLY49" library="supply2" deviceset="GND" device=""/>
 <part name="C1" library="rcl" deviceset="C-EU" device="C0603" value="100n"/>
-<part name="C2" library="rcl" deviceset="C-EU" device="C0805" value="4u7"/>
+<part name="C2" library="rcl" deviceset="C-EU" device="C0805" value="2u2"/>
 <part name="SUPPLY61" library="supply2" deviceset="GND" device=""/>
 <part name="+3V4" library="supply1" deviceset="+3V3" device=""/>
 <part name="R1" library="rcl" deviceset="R-EU_" device="R0805" value="10K"/>
 <part name="SUPPLY63" library="supply2" deviceset="GND" device=""/>
-<part name="C5" library="rcl" deviceset="C-EU" device="C0805" value="1u"/>
+<part name="C5" library="rcl" deviceset="C-EU" device="C0805" value="2u2"/>
 <part name="C6" library="rcl" deviceset="C-EU" device="C0603" value="100n"/>
 <part name="+3V2" library="supply1" deviceset="+3V3" device=""/>
 <part name="+3V3" library="supply1" deviceset="+3V3" device=""/>
@@ -10275,7 +10275,7 @@ Source: Samtec SSW.pdf</description>
 <part name="R5" library="rcl" deviceset="R-EU_" device="R0805" value="100K"/>
 <part name="R6" library="rcl" deviceset="R-EU_" device="R0805" value="100K"/>
 <part name="R7" library="rcl" deviceset="R-EU_" device="R0805" value="100K"/>
-<part name="X1" library="con-samtec" deviceset="SSW-106-02-S-S" device=""/>
+<part name="X1" library="con-samtec" deviceset="SSW-106-02-S-S" device="" value="N.C."/>
 <part name="SUPPLY6" library="supply2" deviceset="GND" device=""/>
 <part name="GND" library="EEZ_Lib1" deviceset="PCB_TEST_TAB" device="SHIELD"/>
 <part name="DIB1.1" library="EEZ_Lib1" deviceset="JP3-CUT" device="-0805-ROTATED"/>
@@ -11245,6 +11245,18 @@ Source: Samtec SSW.pdf</description>
 <wire x1="233.68" y1="96.52" x2="246.38" y2="96.52" width="0.1524" layer="91"/>
 <wire x1="248.92" y1="104.14" x2="246.38" y2="104.14" width="0.1524" layer="91"/>
 <wire x1="246.38" y1="104.14" x2="246.38" y2="96.52" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="DIB_SYNC" class="0">
+<segment>
+<pinref part="X2" gate="-6" pin="1"/>
+<wire x1="68.58" y1="152.4" x2="83.82" y2="152.4" width="0.1524" layer="91"/>
+<label x="83.82" y="153.035" size="1.27" layer="102" rot="MR0"/>
+</segment>
+<segment>
+<pinref part="IC1" gate="G$1" pin="PA6"/>
+<wire x1="198.12" y1="63.5" x2="198.12" y2="48.26" width="0.1524" layer="91"/>
+<label x="197.485" y="48.26" size="1.27" layer="102" rot="R90"/>
 </segment>
 </net>
 </nets>
