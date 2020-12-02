@@ -1,3 +1,5 @@
+[![OSHW-HR000005](Images/OSHW_UID_HR5.svg)](https://certification.oshwa.org/hr000005.html)
+
 The EEZ DIB PREL6 module features six independently programmable power relays.
 
 ### Feature list
