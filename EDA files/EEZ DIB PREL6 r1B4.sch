@@ -13013,6 +13013,9 @@ Source: Samtec SSW.pdf</description>
 <rectangle x1="149.86" y1="157.48" x2="187.96" y2="172.72" layer="97"/>
 <text x="144.78" y="175.26" size="1.778" layer="97">JTAG/SWD (optional)</text>
 <text x="7.62" y="175.26" size="1.778" layer="97">DIB connector</text>
+<text x="162.56" y="94.615" size="1.27" layer="103">PCB_ID0</text>
+<text x="162.56" y="92.075" size="1.27" layer="103">PCB_ID1</text>
+<text x="147.32" y="94.615" size="1.27" layer="103">PCB_ID=1</text>
 </plain>
 <instances>
 <instance part="KK1" gate="G$1" x="149.86" y="17.78" smashed="yes">
@@ -13289,9 +13292,9 @@ Source: Samtec SSW.pdf</description>
 <instance part="SUPPLY6" gate="GND" x="154.94" y="86.36" smashed="yes" rot="MR90">
 <attribute name="VALUE" x="153.035" y="85.725" size="1.778" layer="96" rot="MR0"/>
 </instance>
-<instance part="GND" gate="G$1" x="160.02" y="93.98" smashed="yes" rot="R90">
-<attribute name="NAME" x="157.48" y="95.885" size="1.778" layer="95"/>
-<attribute name="VALUE" x="162.56" y="93.98" size="1.778" layer="96" rot="R90"/>
+<instance part="GND" gate="G$1" x="160.02" y="99.06" smashed="yes" rot="R90">
+<attribute name="NAME" x="157.48" y="100.965" size="1.778" layer="95"/>
+<attribute name="VALUE" x="162.56" y="99.06" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="DIB1.1" gate="G$1" x="251.46" y="104.14" smashed="yes" rot="MR0">
 <attribute name="NAME" x="252.73" y="103.505" size="1.778" layer="95"/>
@@ -13382,7 +13385,11 @@ Source: Samtec SSW.pdf</description>
 <wire x1="160.02" y1="86.36" x2="157.48" y2="86.36" width="0.1524" layer="91"/>
 <junction x="160.02" y="86.36"/>
 <pinref part="GND" gate="G$1" pin="P$1"/>
-<wire x1="160.02" y1="86.36" x2="160.02" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="160.02" y1="86.36" x2="160.02" y2="93.98" width="0.1524" layer="91"/>
+<pinref part="IC1" gate="G$1" pin="PF0-OSC_IN"/>
+<wire x1="160.02" y1="93.98" x2="160.02" y2="96.52" width="0.1524" layer="91"/>
+<wire x1="175.26" y1="93.98" x2="160.02" y2="93.98" width="0.1524" layer="91"/>
+<junction x="160.02" y="93.98"/>
 </segment>
 <segment>
 <pinref part="IC1" gate="G$1" pin="VSS_3"/>
@@ -13909,6 +13916,12 @@ Source: Samtec SSW.pdf</description>
 <pinref part="IC1" gate="G$1" pin="PA6"/>
 <wire x1="198.12" y1="63.5" x2="198.12" y2="48.26" width="0.1524" layer="91"/>
 <label x="197.485" y="48.26" size="1.27" layer="102" rot="R90"/>
+</segment>
+</net>
+<net name="N$6" class="0">
+<segment>
+<pinref part="IC1" gate="G$1" pin="PF1-OSC_OUT"/>
+<wire x1="175.26" y1="91.44" x2="162.56" y2="91.44" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>

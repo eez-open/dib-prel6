@@ -3,11 +3,13 @@ The contributors are listed in CONTRIB.TXT. This project uses the TAPR v1.0 lice
 
 [![OSHW-HR000005](Images/OSHW_UID_HR5.svg)](https://certification.oshwa.org/hr000005.html)
 
+### Description
+
 The EEZ DIB PREL6 module features six independently programmable power relays.
 
 ### Feature list
 
-* On-board STM32F030C6T6 ARM Cortex-M0 MCU
+* On-board STM32F030C6T6 or STM32F031C4T6 MCU
 * 2 x 16-pin dual row 3.81 mm connectors
 * 4 x SPDT relays, max. 8 A / 230 Vac
 * 2 x SPST relays, max. 8 A / 230 Vac
