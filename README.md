@@ -22,6 +22,7 @@ The EEZ DIB PREL6 module features six independently programmable power relays.
 ### Firmware repository
 
 https://github.com/eez-open/dib-prel6-fw
+The firmware download procedure is described in the User Manual in [Chapter 13](https://github.com/eez-open/modular-psu/blob/master/docs/user%20manual/EEZ%20BB3%20user%20manual.pdf). 
 
 ### r1B2 prototype
 
